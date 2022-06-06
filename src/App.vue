@@ -1,8 +1,10 @@
 <script setup>
-import HelloWorld from './components/HeaderComp.vue'
+import HeaderComp from './components/HeaderComp.vue'
+import CardsComp from './components/CardsComp.vue'
 import './index.css'
 </script>
 
 <template>
-  <HelloWorld/>
+  <HeaderComp/>
+  <CardsComp/>
 </template>
