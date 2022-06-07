@@ -10,10 +10,10 @@ export default {
   mounted() {
     if(this.coin_number_select == 0) {
       this.url_slice = 'bitcoin'
+      fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${this.url_slice}&order=market_cap_desc&per_page=100&page=1&sparkline=false`)
+        .then(response => response.json())
+        .then(data => this.coin = data)
     }
-    fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${this.url_slice}&order=market_cap_desc&per_page=100&page=1&sparkline=false`)
-      .then(response => response.json())
-      .then(data => this.coin = data)
   },
   watch: {
     coin_number_select() {
@@ -22,13 +22,16 @@ export default {
           this.url_slice = 'bitcoin'
           break;
         case 1:
-          this.url_slice = "ethereum"
+          this.url_slice = 'dacxi'
           break;
         case 2:
-          this.url_slice = "cosmos"
+          this.url_slice = 'ethereum'
           break;
         case 3:
-          this.url_slice = "terra-luna"
+          this.url_slice = 'cosmos'
+          break;
+        case 4:
+          this.url_slice = 'terra-luna'
           break;
       }
       fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${this.url_slice}&order=market_cap_desc&per_page=100&page=1&sparkline=false`)

@@ -7,6 +7,7 @@ export default {
 		return {
 			card_data: [
 				{icon: 'card_bitcoin', name: 'Bitcoin', ticker: 'BTC'},
+				{icon: 'card_dacxi', name: 'Dacxi', ticker: 'DACXI'},
 				{icon: 'card_ethereum',	name: 'Ethereum', ticker: 'ETH'},
 				{icon: 'card_cosmos', name: 'Cosmos', ticker: 'ATOM'},
 				{icon: 'card_terra', name: 'Terra', ticker: 'LUNA'}
