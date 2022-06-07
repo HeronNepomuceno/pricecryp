@@ -4,7 +4,6 @@ import { ref } from 'vue'
 
 <template>
   <div class="w-full flex justify-center items-center md:pl-4">
-    {{ teste }}
     <div class="flex justify-center items-center px-32px w-[calc(100%-64px)] mt-6 bg-stone-800 p-4 md:w-auto rounded ">
       <img class="w-20 mr-2 animate-pulse md:mr-4" src="svg/images/bitcoin.svg" alt="Coin Logo">
       <div class="flex flex-col w-full items-start">
