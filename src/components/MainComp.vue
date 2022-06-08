@@ -1,8 +1,10 @@
 <script>
 import CardComp from './CardComp.vue'
 import PricesComp from './PricesComp.vue'
+import HistoricComp from './HistoricComp.vue'
+
 export default {
-	components: { CardComp, PricesComp },
+	components: { CardComp, PricesComp, HistoricComp },
 	data() {
 		return {
 			card_data: [
@@ -48,5 +50,6 @@ export default {
 			</li>
 		</ul>
 		<PricesComp :coin_number_select="number"/>
+		<HistoricComp/>
 	</main>
 </template>

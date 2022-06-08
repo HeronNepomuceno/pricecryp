@@ -2,11 +2,11 @@ module.exports = {
   mode: 'jit',
   content: [
     "./index.html",
-    "./src/App.vue",
     "./src/components/HeaderComp.vue",
     "./src/components/MainComp.vue",
     "./src/components/CardComp.vue",
-    "./src/components/PricesComp.vue"
+    "./src/components/PricesComp.vue",
+    "./src/components/HistoricComp.vue"
   ],
   theme: {
     extend: {
