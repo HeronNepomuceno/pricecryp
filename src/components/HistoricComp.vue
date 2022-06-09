@@ -10,6 +10,7 @@ export default {
 		}
 	},
 	methods: {
+		// ✔️ This function checks if the user write the full date in the input, if doesn't, return error message.
 		validateDate() {
 			if(this.date.length == 10) {
 				this.formatDate(this.date)
@@ -20,12 +21,14 @@ export default {
 				}, "3000")
 			}
 		},
+		// ✔️ This function transform the input date in correct format for url slice using in fetch url.
 		formatDate(noFormatDate) {
 			let formatDate = noFormatDate
 			formatDate = noFormatDate.split('-', 3)
 			formatDate = `${formatDate[2]}-${formatDate[1]}-${formatDate[0]}`
 			this.showCurrentPrice(formatDate)
 		},
+		// ✔️ This function get the coin price in date input from the user
 		showCurrentPrice(formatDate) {
 			this.date = formatDate
 			this.date_info = formatDate

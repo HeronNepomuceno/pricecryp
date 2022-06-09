@@ -19,7 +19,7 @@ export default {
 	},
 	methods: {
 		cardSelect(card_number) {
-			// This function change the background card when selected and save the card number in session storage
+			// ✔️ This function change the background card when selected and save the card number in session storage.
 			this.number = parseInt(card_number)
 			var all_cards = document.querySelectorAll(".js-card")
 			for (let item of all_cards) {
@@ -30,7 +30,7 @@ export default {
 		}
 	},
 	mounted() {
-		// This function set the value of card selected, if not exist a value, set the selection in first card
+		// ✔️ This function get the value in sessionStorage and set in card, if it doesn't exist, first card is selected
 		if(sessionStorage.getItem('card_select') != null) {
 			let value = sessionStorage.getItem('card_select')
 			this.cardSelect(parseInt(value))
