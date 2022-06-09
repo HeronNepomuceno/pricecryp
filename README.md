@@ -62,4 +62,8 @@ npm run build
 
 ## Tecnologias usadas no projeto
 
-
+* HTML, CSS, Javascript
+* Vuejs 3 + Vite
+* Tailwind
+* Figma
+* Git
