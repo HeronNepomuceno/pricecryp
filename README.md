@@ -42,17 +42,11 @@ npm run build
 
 3. Em terceiro lugar, a sessão abaixo é responsável por exibir o valor da moeda de acordo com uma data estipulada pelo usuário:
  
-  3.1 Quando a data é válida para a criptomoeda, é exibida uma mensagem que mostra o valor da moeda na data citada:
+   3.1 Quando a data é válida para a criptomoeda, é exibida uma mensagem que mostra o valor da moeda na data citada:
 
-  ![image](https://user-images.githubusercontent.com/67935408/172898904-27c3cfed-e45f-4a34-bed0-b0df3cb5d81b.png)
+   3.2 Caso o usuário coloque uma data inválida com o tempo da cripto selecionada, irá ser mostrado uma mensagem de erro:
 
-  3.2 Caso o usuário coloque uma data inválida com o tempo da cripto selecionada, irá ser mostrado uma mensagem de erro:
-
-  ![image](https://user-images.githubusercontent.com/67935408/172899167-5e4fc5b2-b8eb-4ee0-83ea-5be0b7e8183a.png)
-
-  3.3 Caso o usuário coloque uma data incompleta (sem os 8 dígitos necessários), também é exibida uma mensagem de erro que fica presente na tela por 3 segundos:
-
-  ![image](https://user-images.githubusercontent.com/67935408/172899368-dbf4efed-432e-4212-bf06-cf1554b03bc2.png)
+   3.3 Caso o usuário coloque uma data incompleta (sem os 8 dígitos necessários), também é exibida uma mensagem de erro que fica presente na tela por 3 segundos:
 
 
 ## Tecnologias usadas no projeto
