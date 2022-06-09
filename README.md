@@ -34,11 +34,9 @@ npm run build
 
 1. Em primeiro lugar, você deve escolher uma cripto moeda que deseja interagir, faça isso clicando em um card. O que comprova que o card esta selecionado, é a mudança na cor do background em relação aos outros. Assim que o card é selecionado, a informação fica salva no sessionStorage, dessa forma, quando se atualiza a página, o card escolhido anteriormente continua selecionado, até que se feche a página. 
 
-![image](https://user-images.githubusercontent.com/67935408/172897810-f80022fe-0b0b-4f3c-b9ca-b411e2d0937b.png)
+ ![image](https://user-images.githubusercontent.com/67935408/172900780-692d1430-6871-4422-9747-3df1eb7dc472.png)
 
 2. Em segundo lugar, a sessão abaixo é responsável por exibir o valor atual da criptomoeda selecionada, ao entrar na página, por padrão, é escolhido o bitcoin. Para atualizar o valor da cripto, basta clickar no botão verde com o ícone de reload. Dessa forma, uma função deve fazer um fetch para recarregar os valores em tempo real (A moeda escolhida foi o dólar USD).
-
-![image](https://user-images.githubusercontent.com/67935408/172898663-74522784-58f3-4fbd-bada-24bc4858cfd7.png)
 
 3. Em terceiro lugar, a sessão abaixo é responsável por exibir o valor da moeda de acordo com uma data estipulada pelo usuário:
  
