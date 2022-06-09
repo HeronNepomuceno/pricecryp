@@ -68,7 +68,7 @@ export default {
       <h4 class="font-pacifico text-2xl font-medium bg-stone-200 text-stone-800 py-4 w-56 text-center rounded-t-xl	 border-solid border-2 border-lime-600 transition-all sm:w-full js-current-price" v-if="coin">${{ coin[0].current_price }}</h4>
       <button class="w-full flex items-center justify-center bg-lime-600 py-2 rounded-b-xl transition-opacity hover:opacity-90" @click="reloadCurrentPrice" title="Update Price" aria-label="Update Price">
         <svg class="w-8 h-8 fill-stone-200 js-reload">
-          <use :xlink:href="('/svg/icons/sprite.svg#reload')"></use>
+          <use :xlink:href="('./svg/icons/sprite.svg#reload')"></use>
         </svg>
       </button>
     </div>

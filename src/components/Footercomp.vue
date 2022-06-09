@@ -17,17 +17,17 @@ export default {
 			<div class="flex items-center justify-center mt-4 sm:w-96">
 				<a class="w-10 h-10 bg-stone-200 rounded-full p-2 mr-4 flex items-center justify-center hover:scale-105 transition-transform sm:w-12 sm:h-12" href="https://www.linkedin.com/in/heron-nepomuceno-b3125b1b6/" target="_blank" aria-label="Acess My Linkedin">
 					<svg class="w-8 h-8 fill-lime-600 sm:w-10 sm:h-10">
-          	<use :xlink:href="('/svg/icons/sprite.svg#linkedin')"></use>
+          	<use :xlink:href="('./svg/icons/sprite.svg#linkedin')"></use>
         	</svg>
 				</a>
 				<a class="w-10 h-10 bg-stone-200 rounded-full p-2 flex items-center justify-center hover:scale-105 transition-transform sm:w-12 sm:h-12" href="https://heron.pages.dev/" target="_blank" aria-label="Acess My Website">
 					<svg class="w-8 h-8 fill-lime-600 sm:w-10 sm:h-10">
-						<use :xlink:href="('/svg/icons/sprite.svg#cellphone-link')"></use>
+						<use :xlink:href="('./svg/icons/sprite.svg#cellphone-link')"></use>
 					</svg>
 				</a>
 				<a class="w-10 h-10 bg-stone-200 rounded-full p-2 ml-4 flex items-center justify-center hover:scale-105 transition-transform sm:w-12 sm:h-12" href="https://github.com/HeronNepomuceno" target="_blank" aria-label="Acess My Github">
 					<svg class="w-8 h-8 fill-lime-600 sm:w-10 sm:h-10">
-						<use :xlink:href="('/svg/icons/sprite.svg#github')"></use>
+						<use :xlink:href="('./svg/icons/sprite.svg#github')"></use>
 					</svg>
 				</a>
 			</div>
