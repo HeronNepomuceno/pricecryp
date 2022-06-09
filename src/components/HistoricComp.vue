@@ -43,7 +43,7 @@ export default {
 
 <template>
 	<section class="flex justify-center items-center mt-6 mb-14 flex-col">
-		<h3 class="font-kdam mb-6 text-lg sm:text-xl w-56 sm:w-auto">3. To view the history, you must specify the date and send:</h3>
+		<h3 class="font-kdam mb-6 text-lg sm:text-xl w-56 sm:w-auto">3. To view the history, you must specify the date and click in button:</h3>
 		<input type="date" class="w-60 bg-stone-800 px-4 py-4 mt-4 font-cabin font-medium text-lg border-solid border-2 border-stone-200 rounded-xl sm:w-96" v-model="date">
 		<label class="w-60 text-center text-red-500" v-if="date_incomplet_error">The date is incomplet, please fill in completely!</label>
 		<div class="w-60 flex items-center justify-end mt-4 sm:w-96">
