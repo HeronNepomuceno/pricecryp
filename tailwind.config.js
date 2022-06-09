@@ -6,7 +6,8 @@ module.exports = {
     "./src/components/MainComp.vue",
     "./src/components/CardComp.vue",
     "./src/components/PricesComp.vue",
-    "./src/components/HistoricComp.vue"
+    "./src/components/HistoricComp.vue",
+    "./src/components/FooterComp.vue",
   ],
   theme: {
     extend: {

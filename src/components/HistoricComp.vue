@@ -33,8 +33,6 @@ export default {
 			fetch(`https://api.coingecko.com/api/v3/coins/${this.coin_selected}/history?date=${this.date}&localization=false`)
 				.then(response => response.json())
 				.then(data => this.historic = data)
-
-			console.log( typeof this.historic.market_data)
 		}
 	}
 }
