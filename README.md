@@ -70,5 +70,5 @@ npm run build
 
 ## Informações de contato do autor
 
-Linkedin: https://www.linkedin.com/in/heron-nepomuceno-b3125b1b6/
-Website: https://heron.pages.dev/
+* Linkedin: https://www.linkedin.com/in/heron-nepomuceno-b3125b1b6/
+* Website: https://heron.pages.dev/
